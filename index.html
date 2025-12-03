@@ -25,6 +25,10 @@
     <link rel="stylesheet" type="text/css" href="filter.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
+<!-- lightGallery CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css">
+
+
 </head>
 
 <body>
@@ -377,27 +381,6 @@
                             </button>
                         </center>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="PaseModaQR">
-                      <div class="modal-dialog modal-lg">
-                        <div class="text_right mb_15" style="pointer-events: auto;">
-                            <button class="my_btn bg_red_true color_white rounded " data-bs-dismiss="modal" aria-label="Close">
-                                <i class="material-icons p_5">close</i>
-                            </button>
-                        </div>
-                        <div class="modal-content bg_transparent">
-                            <div class="rounded" id="map1">
-                                <div class="pase-xv">
-                                    <video id="camara" style="width: 100%; height: auto;" autoplay playsinline></video>
-                                    <div class="contenido-pase" id="watch_scaneo">
-                                        <p class="text-center">Escanea el código QR para la foto.</p>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-
 
 
 
@@ -409,6 +392,29 @@
                 </center>
             </div>
            
+
+            
+
+            <!-- Modal -->
+            <div class="modal fade" id="PaseModaQR">
+              <div class="modal-dialog modal-lg">
+                <div class="text_right mb_15" style="pointer-events: auto;">
+                    <button class="my_btn bg_red_true color_white rounded " data-bs-dismiss="modal" aria-label="Close">
+                        <i class="material-icons p_5">close</i>
+                    </button>
+                </div>
+                <div class="modal-content bg_transparent">
+                    <div class="rounded" id="map1">
+                        <div class="pase-xv">
+                            <video id="camara" style="width: 100%; height: auto;" autoplay playsinline></video>
+                            <div class="contenido-pase" id="watch_scaneo">
+                                <p class="text-center">Escanea el código QR para la foto.</p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+              </div>
+            </div>
 
 
 
